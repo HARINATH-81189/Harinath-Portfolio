@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harinath Ontigari Portfolio</title>
+    <meta name="description"
+        content="Professional portfolio of John Doe, a Frontend Developer specializing in HTML and CSS.">
+    <meta name="keywords" content="web developer, frontend, HTML, CSS, portfolio">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <a href="#home" class="logo">Harinath Portfolio<span class="logo-dot">...</span></a>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch" class="theme-switch">
+                <label for="theme-switch" class="theme-label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="theme-ball"></span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <!-- Your existing text content here -->
+                    <div class="hero-greeting">Hello, I'm</div>
+                    <h1 class="hero-title">Harinath <span class="highlight">Ontigari</span></h1>
+                    <h2 class="hero-subtitle">Aspiring Software Engineer | Java Developer</h2>
+                    <p class="hero-description">
+                        I build robust, scalable digital platforms using Java and Spring Boot, specializing in secure,
+                        full-stack solutions with seamless frontend and backend integration.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                        <a href="Ontigari_Harinath_Resume.pdf" class="btn btn-secondary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/ontigari-harinath/" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/HARINATH-81189" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:ontigariharinath123@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <!-- <a href="https://leetcode.com/u/HARINATH_81189/" target="_blank" aria-label="LeetCode">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/ontigariharinat1" target="_blank"
+                            aria-label="HackerRank">
+                            <i class="fab fa-hackerrank"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <!-- Profile Image Container with Glow Effect -->
+                        <div class="profile-img">
+                            <!-- Replace with your image -->
+                            <img src="mine.jpg" alt="Harinath Ontigari" class="profile-photo">
+                            <!-- Outer Glow Border -->
+                            <div class="glow-border"></div>
+                            <!-- Inner Person Border (optional for cutout effect) -->
+                            <div class="person-border"></div>
+                        </div>
+                        <!-- Floating Elements -->
+                        <div class="floating-element element-1">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <div class="floating-element element-2">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="floating-element element-3">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="floating-element element-4">
+                            <i class="fas fa-server"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about" class="scroll-down">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <h2><<--Education Details-->></h2>
+                        <div class="education-cards">
+                            <!-- Graduation Card -->
+                            <div class="edu-card">
+                                <div class="edu-card-header">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="edu-year-badge">2021-2025</div>
+                                </div>
+                                <h3 class="edu-card-title">B.Tech, CSE</h3>
+                                <p class="edu-card-school">Siddharth Institute of Engineering & Technology</p>
+                                <div class="edu-card-footer">
+                                    <span class="edu-location">Puttur, AP</span>
+                                    <span class="edu-percent">85%</span>
+                                </div>
+                            </div>
+
+                            <!-- Intermediate Card -->
+                            <div class="edu-card">
+                                <div class="edu-card-header">
+                                    <i class="fas fa-school"></i>
+                                    <div class="edu-year-badge">2019-2021</div>
+                                </div>
+                                <h3 class="edu-card-title">Intermediate, (MPC)</h3>
+                                <p class="edu-card-school">St. Joseph Junior College</p>
+                                <div class="edu-card-footer">
+                                    <span class="edu-location">Kadapa, AP</span>
+                                    <span class="edu-percent">89%</span>
+                                </div>
+                            </div>
+
+                            <!-- 10th Card -->
+                            <div class="edu-card">
+                                <div class="edu-card-header">
+                                    <i class="fas fa-award"></i>
+                                    <div class="edu-year-badge">2018-2019</div>
+                                </div>
+                                <h3 class="edu-card-title">Class 10 (SSC)</h3>
+                                <p class="edu-card-school">Z P High School</p>
+                                <div class="edu-card-footer">
+                                    <span class="edu-location">Chilamkur, AP</span>
+                                    <span class="edu-percent">88%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hello! I'm Harinath, a passionate Java Developer</h3>
+                    <p>
+                        I specialize in building robust, scalable full-stack applications using Java, Spring Boot, and
+                        Hibernate.
+                        I love turning complex business logic into efficient, secure, and well-structured digital
+                        systems.
+
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new backend frameworks,
+                        optimizing database performance, or contributing to projects that enhance my skills in system
+                        design and clean architecture.
+
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Harinath Ontigari</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">ontigariharinath123@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Bangalore, Karnataka</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Availability:</span>
+                            <span class="info-value available">Available for work</span>
+                        </div>
+                    </div>
+                    <a href="Ontigari_Harinath_Resume.pdf" download="Ontigari_Harinath_Resume.pdf"
+                        class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download My Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+                <p class="section-subtitle">Technologies & Tools I Work With</p>
+            </div>
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Programming Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-name">
+                            <i class="fab fa-java"></i> Java
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-database"></i> SQL
+                        </div>
+                        <div class="skill-name">
+                            <i class="fab fa-js-square"></i> JavaScript
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Java Frameworks -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Java Frameworks</h3>
+                    <div class="skill-list">
+                        <div class="skill-name">
+                            <i class="fas fa-leaf"></i> Spring Boot
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-layer-group"></i> Hibernate
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-project-diagram"></i> Spring MVC
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-server"></i> Java EE
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-file-code"></i> JSP/Servlets
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database & Backend -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database & Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-name">
+                            <i class="fas fa-database"></i> MySQL
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-plug"></i> JDBC
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-exchange-alt"></i> REST APIs
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-code"></i> JSON
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Web Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-name">
+                            <i class="fab fa-html5"></i> HTML5
+                        </div>
+                        <div class="skill-name">
+                            <i class="fab fa-css3-alt"></i> CSS3
+                        </div>
+                        <div class="skill-name">
+                            <i class="fab fa-js-square"></i> JavaScript
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-mobile-alt"></i> Responsive Design
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core Concepts -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Core Concepts</h3>
+                    <div class="skill-list">
+                        <div class="skill-name">
+                            <i class="fas fa-cube"></i> OOP Principles
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-sitemap"></i> Data Structures & Algorithms
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-shapes"></i> SOLID Design Patterns
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-tasks"></i> SDLC/Agile Methodologies
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-stream"></i> Multithreading
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Developer Tools -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Developer Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-name">
+                            <i class="fab fa-git-alt"></i> Git & GitHub
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-code"></i> Eclipse IDE
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-paper-plane"></i> Postman
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-bolt"></i> Spring Initializr
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-box"></i> Maven Build Tool
+                        </div>
+                        <div class="skill-name">
+                            <i class="fas fa-file-alt"></i> Swagger UI
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
+                <p class="section-subtitle">Professional journey & internships</p>
+            </div>
+            <div class="experience-container">
+                <!-- Internship Experience -->
+                <div class="exp-category">
+                    <h3><i class="fas fa-briefcase"></i> Internship Experience</h3>
+                    <div class="exp-list">
+                        <div class="exp-item">
+                            <div class="exp-header">
+                                <div class="exp-title">
+                                    <h4>Full Stack Web Development Intern</h4>
+                                    <p class="exp-company">TapAcademy | BTM, Bangalore</p>
+                                </div>
+                                <div class="exp-period">2025</div>
+                            </div>
+
+                            <div class="exp-details">
+                                <div class="exp-tech">
+                                    <span class="tech-tag">
+                                        <i class="fab fa-java"></i> Java
+                                    </span>
+                                    <span class="tech-tag">
+                                        <i class="fas fa-database"></i> SQL
+                                    </span>
+                                    <span class="tech-tag">
+                                        <i class="fas fa-layer-group"></i> Hibernate
+                                    </span>
+                                    <span class="tech-tag">
+                                        <i class="fas fa-leaf"></i> Spring Boot
+                                    </span>
+                                    <span class="tech-tag">
+                                        <i class="fab fa-html5"></i> HTML
+                                    </span>
+                                    <span class="tech-tag">
+                                        <i class="fab fa-css3-alt"></i> CSS
+                                    </span>
+                                    <span class="tech-tag">
+                                        <i class="fab fa-js-square"></i> JavaScript
+                                    </span>
+                                </div>
+
+                                <ul class="exp-responsibilities">
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Developed and maintained full-stack web applications using Java, JSP, Java EE,
+                                        Hibernate, and Spring
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Designed, tested, and optimized MySQL database schemas using OOP Principles and
+                                        SOLID design patterns
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Wrote complex SQL queries to ensure data integrity and optimal performance
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Contributed to all phases of the SDLC, from requirement analysis to deployment
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Participated in code reviews and debugging sessions to ensure code quality
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Gained experience in collaborating with cross-functional teams
+                                    </li>
+                                </ul>
+
+                                <!-- <div class="exp-achievements">
+                                <h5><i class="fas fa-trophy"></i> Key Achievements:</h5>
+                                <ul>
+                                    <li>Successfully delivered 2+ full-stack applications</li>
+                                    <li>Improved application performance by 30% through query optimization</li>
+                                    <li>Received positive feedback from senior developers</li>
+                                </ul>
+                            </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Projects (Optional - separate from personal projects) -->
+                <!-- <div class="exp-category">
+                <h3><i class="fas fa-graduation-cap"></i> Academic Projects</h3>
+                <div class="exp-list">
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <div class="exp-title">
+                                <h4>Online Quiz Management System</h4>
+                                <p class="exp-company">Academic Project | Java Full-Stack</p>
+                            </div>
+                            <div class="exp-period">2023</div>
+                        </div>
+                        
+                        <div class="exp-details">
+                            <div class="exp-tech">
+                                <span class="tech-tag">
+                                    <i class="fab fa-java"></i> JSP/Servlets
+                                </span>
+                                <span class="tech-tag">
+                                    <i class="fas fa-database"></i> JDBC
+                                </span>
+                                <span class="tech-tag">
+                                    <i class="fas fa-database"></i> MySQL
+                                </span>
+                                <span class="tech-tag">
+                                    <i class="fas fa-layer-group"></i> Hibernate
+                                </span>
+                                <span class="tech-tag">
+                                    <i class="fab fa-html5"></i> HTML/CSS/JS
+                                </span>
+                            </div>
+                            
+                            <ul class="exp-responsibilities">
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    Developed full-stack web app with role-based login and session-based authentication
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    Created admin dashboard for managing quizzes and questions
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    Implemented servlet-based MVC architecture
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Built with pure HTML & CSS</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="QuizInterface.png" alt="Online Quiz Management System Screenshot"
+                            class="project-screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Quiz Management System</h3>
+                        <p>A full-stack Java EE web application with role-based authentication for online examinations.
+                            Built using JSP/Servlets, JDBC for database connectivity, and MySQL for data persistence.
+                        </p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>SQL</span>
+                            <span>JSP/Servlets</span>
+                            <span>Java EE</span>
+                            <span>JDBC</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS/JS</span>
+                            <span>Eclipse</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HARINATH-81189/QuizApplication/tree/main/QuizApplication"
+                                target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/HARINATH-81189/QuizApplication/tree/main/QuizApplication"
+                                target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="BlogApplication.png" alt="Blog Application Screenshot" class="project-screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>Blog Platform</h3>
+                        <p> A robust Java EE blogging platform with Spring Boot framework, JPA/Hibernate for ORM, and
+                            MySQL database.
+                            Implements user authentication, article publishing workflow, comment moderation, and RESTful
+                            APIs for content management.
+                        </p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>SQL</span>
+                            <span>Hibernate </span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS/JS</span>
+                            <span>Eclipse</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HARINATH-81189/Blog-Platform/tree/master/Blog%20Platform"
+                                target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/HARINATH-81189/Blog-Platform/tree/master/Blog%20Platform"
+                                target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="AnalogClock.png" alt="AnalogClock Screenshot" class="project-screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>AnalogClock with Date</h3>
+                        <p>A clean analog clock interface with live date display.
+                            Utilizes CSS keyframe animations for smooth hand movement and JavaScript for accurate time
+                            calculations. Responsive design works across all devices.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript </span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="https://harinath-81189.github.io/Analog-Clock-with-Date/" target="_blank"
+                                class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/HARINATH-81189/Analog-Clock-with-Date" target="_blank"
+                                class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Certifications section-->
+    <section id="certifications" class="section certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Certifications</span></h2>
+                <p class="section-subtitle">Professional credentials & achievements</p>
+            </div>
+            <div class="certifications-container">
+                <!-- Java & Backend Certifications -->
+                <div class="cert-category">
+                    <h3><i class="fas fa-code"></i> Java & Backend Development</h3>
+                    <div class="cert-list">
+                        <a href="https://www.hackerrank.com/certificates/1c89e3bd44fc" class="cert-item"
+                            target="_blank">
+                            <div class="cert-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4 class="cert-title">Java(Basic)</h4>
+                                <p class="cert-issuer">HackerRank</p>
+                                <div class="cert-date">Issued on: July 2025</div>
+                            </div>
+                            <div class="cert-arrow">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="cert-list">
+                        <a href="https://drive.google.com/file/d/1ZOtOfkJOmdGlf5ybqkoVjLoQFE8UHlN3/view?usp=sharing"
+                            class="cert-item" target="_blank">
+                            <div class="cert-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4 class="cert-title">Programming in Java</h4>
+                                <p class="cert-issuer">NPTEL Online Certification</p>
+                                <div class="cert-date">Issued on: October 2023</div>
+                            </div>
+                            <div class="cert-arrow">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Database Certifications -->
+                <div class="cert-category">
+                    <h3><i class="fas fa-database"></i> Database Management</h3>
+                    <div class="cert-list">
+                        <a href="https://www.hackerrank.com/certificates/37f05535404f" class="cert-item"
+                            target="_blank">
+                            <div class="cert-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4 class="cert-title">SQL(Basic)</h4>
+                                <p class="cert-issuer">HackerRank</p>
+                                <div class="cert-date">Issued on: May 2025</div>
+                            </div>
+                            <div class="cert-arrow">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Web Development Certifications -->
+                <div class="cert-category">
+                    <h3><i class="fas fa-globe"></i> Web Development</h3>
+                    <div class="cert-list">
+                        <a href="https://drive.google.com/file/d/1ytIpLiRJdg8KtLIffI8XcIRjXO2VMgs3/view?usp=sharing"
+                            class="cert-item" target="_blank">
+                            <div class="cert-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4 class="cert-title">Full Stack Web Development</h4>
+                                <p class="cert-issuer">TapAcademy</p>
+                                <div class="cert-date">Issued on: July 2025</div>
+                            </div>
+                            <div class="cert-arrow">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <!--Others -->
+                <div class="cert-category">
+                    <h3><i class="fa-sharp fa-regular fa-certificate"></i> Other Certifications</h3>
+                    <div class="cert-list">
+                        <a href="https://www.hackerrank.com/certificates/a8a1d5515196" class="cert-item"
+                            target="_blank">
+                            <div class="cert-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4 class="cert-title">Problem Solving(Basic)</h4>
+                                <p class="cert-issuer">HackerRank</p>
+                                <div class="cert-date">Issued on: July 2025</div>
+                            </div>
+                            <div class="cert-arrow">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tools & Methodologies -->
+                <!-- <div class="cert-category">
+                <h3><i class="fas fa-tools"></i> Tools & Methodologies</h3>
+                <div class="cert-list">
+                    <a href="https://example-cert-link.com/git-github" class="cert-item" target="_blank">
+                        <div class="cert-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="cert-title">Git & GitHub Mastery</h4>
+                            <p class="cert-issuer">GitHub Learning Lab</p>
+                            <div class="cert-date">Issued: Aug 2023</div>
+                        </div>
+                        <div class="cert-arrow">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://example-cert-link.com/agile-scrum" class="cert-item" target="_blank">
+                        <div class="cert-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="cert-title">Agile & Scrum Fundamentals</h4>
+                            <p class="cert-issuer">Scrum.org</p>
+                            <div class="cert-date">Issued: Jul 2023</div>
+                        </div>
+                        <div class="cert-arrow">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://example-cert-link.com/maven" class="cert-item" target="_blank">
+                        <div class="cert-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4 class="cert-title">Maven Build Tool Certification</h4>
+                            <p class="cert-issuer">Apache Maven</p>
+                            <div class="cert-date">Issued: Jun 2023</div>
+                        </div>
+                        <div class="cert-arrow">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </a>
+                </div>
+            </div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <p class="section-subtitle">Let's work together!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>ontigariharinath123@gmail.com</p>
+                        </div>
+                    </div>
+                    <!-- <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 7671846838</p>
+                        </div>
+                    </div> -->
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Bangalore, Karnataka</p>
+                        </div>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/HARINATH-81189" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ontigari-harinath/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:ontigariharinath123@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+
+                        <!-- <a href="https://leetcode.com/u/HARINATH_81189/" target="_blank" aria-label="LeetCode">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/ontigariharinat1" target="_blank"
+                            aria-label="HackerRank">
+                            <i class="fab fa-hackerrank"></i>
+                        </a> -->
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="aac69c6f-e3d0-46f1-b149-866edf3545a7">
+                        <input type="hidden" name="subject" value="New Portfolio Message">
+
+                        <!-- Form fields -->
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+
+                        <!-- Submit button with ID -->
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+
+                    <!-- Success Message -->
+                    <div id="formSuccess"
+                        style="display: none; text-align: center; padding: 40px; background: #1b1c1c; border-radius: 8px;border: 2px solid yellowgreen;">
+                        <div style="color: #8a8e8b; font-size: 50px; margin-bottom: 20px;">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3 style="color: #adb4af;">Success!</h3>
+                        <p>Your message has been sent successfully.</p>
+                        <button onclick="showFormAgain()" class="btn btn-secondary" style="margin-top: 20px;">
+                            <i class="fas fa-redo"></i> Send Another Message
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home" class="logo">HARI<span class="logo-dot">...</span></a>
+                    <p>Building enterprise applications with Java, Spring & Hibernate.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> ontigariharinath123@gmail.com</p>
+                    <!-- <p><i class="fas fa-phone"></i> +91 7671846838</p> -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2025</span> Harinath Ontigari. All rights reserved.</p>
+                <!-- <p>Made with <i class="fas fa-heart"></i> and pure <i class="fas fa-code"></i></p> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Current Year in Footer (Using HTML only) -->
+    <span style="display: none;">
+        <input type="hidden" id="yearInput" value="2025">
+    </span>
+
+
+
+
+
+
+    <script>
+        // Store original button state globally
+        let originalButtonHTML = '';
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const submitBtn = document.getElementById('submitBtn');
+
+            // Store original button content
+            if (submitBtn) {
+                originalButtonHTML = submitBtn.innerHTML;
+            }
+
+            setupForm();
+        });
+
+        function setupForm() {
+            const contactForm = document.getElementById('contactForm');
+            const formSuccess = document.getElementById('formSuccess');
+            const submitBtn = document.getElementById('submitBtn');
+
+            // Reset everything to initial state
+            if (contactForm) contactForm.style.display = 'block';
+            if (formSuccess) formSuccess.style.display = 'none';
+            if (submitBtn) {
+                submitBtn.innerHTML = originalButtonHTML;
+                submitBtn.disabled = false;
+            }
+
+            if (contactForm) {
+                // Remove any existing event listeners
+                contactForm.replaceWith(contactForm.cloneNode(true));
+
+                // Get fresh reference
+                const freshForm = document.getElementById('contactForm');
+                const freshSubmitBtn = document.getElementById('submitBtn');
+
+                freshForm.addEventListener('submit', async function (e) {
+                    e.preventDefault();
+                    console.log('Form submitting...');
+
+                    // Show loading
+                    freshSubmitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+                    freshSubmitBtn.disabled = true;
+
+                    try {
+                        const formData = new FormData(freshForm);
+
+                        // Add delay to see loading state
+                        await new Promise(resolve => setTimeout(resolve, 500));
+
+                        const response = await fetch(freshForm.action, {
+                            method: 'POST',
+                            body: formData
+                        });
+
+                        const result = await response.json();
+                        console.log('Form result:', result);
+
+                        if (result.success) {
+                            // Success
+                            freshForm.style.display = 'none';
+                            formSuccess.style.display = 'block';
+
+                            // IMPORTANT: Reset button immediately
+                            freshSubmitBtn.innerHTML = originalButtonHTML;
+                            freshSubmitBtn.disabled = false;
+
+                            // Clear form
+                            freshForm.reset();
+
+                            console.log('✅ Form submitted successfully, button reset.');
+                        } else {
+                            throw new Error(result.message || 'Submission failed');
+                        }
+                    } catch (error) {
+                        console.error('Error:', error);
+
+                        // Reset button on error
+                        freshSubmitBtn.innerHTML = originalButtonHTML;
+                        freshSubmitBtn.disabled = false;
+
+                        alert('Error: ' + error.message);
+                    }
+                });
+            }
+        }
+
+        function showFormAgain() {
+            // Reset and show form again
+            setupForm();
+        }
+    </script>
+
+
+</body>
+
+</html>
